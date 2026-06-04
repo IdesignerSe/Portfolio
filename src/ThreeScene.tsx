@@ -1,4 +1,8 @@
- import SciFiDesk from "./components/SciFiDesk/SciFiDesk";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+// TypeScript can't find declaration for the JS component; silence the error
+// @ts-ignore
+import SciFiDesk from "./components/SciFiDesk/SciFiDesk";
 
 export default function ThreeScene() {
   return (

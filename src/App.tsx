@@ -1,10 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 
-import ThreeScene from "./ThreeScene";
+// @ts-ignore: importing a JS/JSX module without a TypeScript declaration file
+import ThreeScene from "./ThreeScene.jsx";
 
 export default function App() {
   return <ThreeScene />;

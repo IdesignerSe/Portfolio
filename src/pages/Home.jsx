@@ -1,3 +1,14 @@
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div className="home-page">
+
+      {/* Hero background */}
+      <section className="hero"></section>
+
+      {/* Welcome section */}
+      <section className="welcome-section">
+      </section>
+
+    </div>
+  );
 }

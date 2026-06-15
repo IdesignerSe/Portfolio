@@ -11,6 +11,12 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <BrowserRouter basename="/portfolio">
+      <div className="fixed-logo">
+        <img
+          src="./logo_IdesignerSe2.jpg"
+          alt=""
+        />
+      </div>
       <Navbar />
 
       <Routes>

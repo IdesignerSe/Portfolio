@@ -1,3 +1,3 @@
 export default function Blogg() {
-  return <h1>Blogg</h1>;
+  return <h1></h1>;
 }

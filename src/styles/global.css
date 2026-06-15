@@ -1,37 +1,40 @@
-/* --------------------------------------------- */
-/* BRAND COLOR SYSTEM                            */
-/* --------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 :root {
-  /* PRIMARY BRAND COLOR */
-  --orange-main: #FF6A00;
+  --font-xs: 0.75rem;
+  --font-sm: 0.9rem;
+  --font-md: 1rem;
+  --font-lg: 1.4rem;
+  --font-xl: 2rem;
+  --font-xxl: 3rem;
+}
 
-  /* ORANGE SHADES */
+/* BRAND COLORS */
+:root {
+  --orange-main: #FF6A00;
   --orange-light: #FF7F24;
   --orange-soft: #FF8F3A;
   --orange-dark: #E65C00;
   --orange-deep: #CC5200;
 
-  /* NEUTRALS */
   --black: #111111;
   --dark-gray: #1A1A1A;
   --gray: #2A2A2A;
   --light-gray: #F5F5F5;
   --white: #FFFFFF;
 
-  /* ACCENTS */
   --accent-soft: #FFE9D6;
   --accent-warm: #FFD8B2;
 
-  /* SHADOWS */
   --shadow-soft: rgba(0, 0, 0, 0.25);
   --shadow-strong: rgba(0, 0, 0, 0.45);
 }
 
-/* --------------------------------------------- */
-/* GLOBAL RESET                                  */
-/* --------------------------------------------- */
-
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -39,18 +42,16 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
   background: var(--white);
   color: var(--black);
   overflow-x: hidden;
 }
+
 .page-title {
-display: none;
+  display: none;
 }
 
-/* --------------------------------------------- */
-/* HERO SECTION (MOBILE-FIRST)                   */
-/* --------------------------------------------- */
+/* HERO */
 .hero {
   width: 100%;
   height: 100vh;
@@ -58,18 +59,13 @@ display: none;
   align-items: center;
   justify-content: center;
   padding: 0 20px;
-
 }
 
-
-/* --------------------------------------------- */
-/* DESKTOP NAVBAR                                */
-/* --------------------------------------------- */
-
+/* NAVBAR (DESKTOP) */
 .navbar {
   width: 100%;
   padding: 15px 20px;
-  display: none; /* hidden on mobile */
+  display: none;
   justify-content: space-between;
   align-items: center;
   position: fixed;
@@ -91,34 +87,33 @@ display: none;
   display: flex;
   gap: 25px;
 }
+
+/* FIXED LOGO */
 .fixed-logo {
   position: fixed;
-  top: 15px;
+  top: 18px;
   left: 15px;
   z-index: 300;
-
-  width: 55px;      /* circle size */
-  height: 55px;     /* circle size */
-  border-radius: 50%; /* make it a perfect circle */
-
-  background: rgba(255,255,255,0.85);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(6px);
   box-shadow: 0 2px 6px var(--shadow-soft);
-
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* ensures the image stays inside the circle */
+  overflow: hidden;
 }
 
 .fixed-logo img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* fills the circle perfectly */
+  object-fit: cover;
 }
 
 .nav-links a {
-  color: var(--transparent);
+  color: var(--white);
   text-decoration: none;
   font-size: 1rem;
   transition: 0.3s;
@@ -128,10 +123,7 @@ display: none;
   color: var(--orange-light);
 }
 
-/* --------------------------------------------- */
-/* MOBILE FLOATING MENU                          */
-/* --------------------------------------------- */
-
+/* MOBILE FLOATING MENU */
 .floating-menu-btn {
   position: fixed;
   bottom: 20px;
@@ -150,12 +142,11 @@ display: none;
   box-shadow: 0 4px 12px var(--shadow-strong);
 }
 
-/* Floating menu container */
 .floating-menu {
   position: fixed;
   bottom: 90px;
   left: 20px;
-  background: rgba(0,0,0,0.85);
+  background: var(--orange-light);
   padding: 15px;
   border-radius: 12px;
   display: none;
@@ -175,16 +166,19 @@ display: none;
   text-decoration: none;
 }
 
-/* Fade animation */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* --------------------------------------------- */
-/* RESPONSIVE BREAKPOINTS                        */
-/* --------------------------------------------- */
-
+/* RESPONSIVE */
 @media (min-width: 600px) {
   .hero-title {
     font-size: 2.5rem;
@@ -193,30 +187,26 @@ display: none;
 }
 
 @media (min-width: 900px) {
-  /* Desktop hero */
   .hero-title {
     font-size: 3rem;
     padding: 25px 40px;
     border-left: 5px solid var(--orange-main);
   }
 
-  /* Desktop navbar visible */
   .navbar {
     display: flex;
-    padding: 20px 40px;
+    height: 90px;
+    padding-left: 140px;
+    align-items: center;
   }
 
-  /* Hide floating menu on desktop */
   .floating-menu-btn,
   .floating-menu {
     display: none;
   }
 }
 
-/* --------------------------------------------- */
-/* ACTIVE LINK                                    */
-/* --------------------------------------------- */
-
+/* ACTIVE LINK */
 .active {
   color: var(--orange-main);
 }

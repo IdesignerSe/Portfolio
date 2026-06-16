@@ -775,7 +775,7 @@ body {
 }
 
 .project-detail-live-btn {
-  background: black;
+  background: var(--orange-main);
   color: white;
 }
 

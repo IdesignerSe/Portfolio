@@ -12,15 +12,15 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <BrowserRouter basename="/portfolio">
+      {/* Fixed Logo */}
       <div className="fixed-logo">
-        <img
-          src="./logo_IdesignerSe2.jpg"
-          alt=""
-        />
+        <img src="./logo_IdesignerSe2.jpg" alt="Logo" />
       </div>
 
+      {/* Navbar always visible */}
       <Navbar />
 
+      {/* Only ONE page renders at a time */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -30,6 +30,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
+      {/* Footer always at bottom */}
       <Footer />
     </BrowserRouter>
   );

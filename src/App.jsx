@@ -5,16 +5,21 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
+
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
+
 import Photography from "./pages/Photography";
 import PhotographyDetail from "./pages/PhotographyDetail";
+
 import Blogg from "./pages/Blogg";
+import BlogDetail from "./pages/BlogDetail";
+
 import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter basename="/Portfolio">
       <div className="fixed-logo">
         <img
           src="./logo_IdesignerSe2.jpg"
@@ -25,7 +30,10 @@ function App() {
       <Navbar />
 
       <Routes>
+        {/* Home */}
         <Route path="/" element={<Home />} />
+
+        {/* About */}
         <Route path="/about" element={<About />} />
 
         {/* Projects */}
@@ -35,8 +43,10 @@ function App() {
         {/* Photography */}
         <Route path="/photography" element={<Photography />} />
         <Route path="/photography/:id" element={<PhotographyDetail />} />
+
         {/* Blog */}
         <Route path="/blogg" element={<Blogg />} />
+        <Route path="/blogg/:id" element={<BlogDetail />} />
 
         {/* Contact */}
         <Route path="/contact" element={<Contact />} />

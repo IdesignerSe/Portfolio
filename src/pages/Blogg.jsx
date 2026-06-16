@@ -1,31 +1,40 @@
-import { useEffect, useState } from "react";
-import bloggData from "../data/blogg.json";
+import { Link } from "react-router-dom";
+import blogPosts from "../data/blogg.json";
 
 export default function Blogg() {
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    setPosts(bloggData);
-  }, []);
-
   return (
-    <div className="blogg-page">
-      <h1 className="page-heading">Blogg</h1>
+    <div className="projects-page">
+      <h2 className="section-title">Latest Blog Posts</h2>
 
-      <div className="blogg-grid">
-        {posts.map((post) => (
-          <div className="blogg-card" key={post.id}>
-            <img src={post.image} alt={post.title} className="blogg-img" />
+      <div className="projects-grid">
+        {blogPosts.map((post) => (
+          <div className="project-card" key={post.id}>
 
-            <div className="blogg-content">
-              <h2>{post.title}</h2>
-              <p className="blogg-date">{post.date}</p>
-              <p>{post.description}</p>
+            {/* IMAGE */}
+            <img
+              src={post.image}
+              alt={post.title}
+              className="project-card-image"
+            />
 
-              <button className="blogg-btn">
+            {/* TITLE */}
+            <h3 className="project-card-title">{post.title}</h3>
+
+            {/* SHORT DESCRIPTION */}
+            <p className="project-card-description">
+              {post.description}
+            </p>
+
+            {/* BUTTONS */}
+            <div className="project-card-actions">
+              <Link
+                to={`/blogg/${post.id}`}
+                className="project-details-btn"
+              >
                 Read More
-              </button>
+              </Link>
             </div>
+
           </div>
         ))}
       </div>

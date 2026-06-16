@@ -3,21 +3,21 @@
     "id": 1,
     "title": "Urban Street Photography",
     "description": "A collection of candid street moments.",
-    "image": "/images/photography/projects/project1.jpg",
+    "image": "/images/photography/photo_projects/project1.jpg",
     "link": "https://instagram.com/yourprofile"
   },
   {
     "id": 2,
     "title": "Nature & Landscapes",
     "description": "Capturing the beauty of nature.",
-    "image": "/images/photography/projects/project2.jpg",
+    "image": "/images/photography/photo_projects/project2.jpg",
     "link": "https://instagram.com/yourprofile"
   },
   {
     "id": 3,
     "title": "Portrait Sessions",
     "description": "Creative portrait photography.",
-    "image": "/images/photography/projects/project3.jpg",
+    "image": "/images/photography/photo_projects/project3.jpg",
     "link": "https://instagram.com/yourprofile"
   }
 ]

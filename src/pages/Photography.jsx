@@ -27,14 +27,14 @@ export default function Photography() {
       <h2 className="photo-section-title">Photography Projects</h2>
 
       <div className="photo-projects-grid">
-        {projects.map((project) => (
-          <div className="photo-project-card" key={project.id}>
-            <a href={project.link} target="_blank">
-              <img src={project.image} alt={project.title} />
+        {projects.map((photoproject) => (
+          <div className="photo-project-card" key={photoproject.id}>
+            <a href={photoproject.link} target="_blank">
+              <img src={photoproject.image} alt={photoproject.title} />
             </a>
 
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
+            <h3>{photoproject.title}</h3>
+            <p>{photoproject.description}</p>
           </div>
         ))}
       </div>

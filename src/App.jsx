@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
 import Photography from "./pages/Photography";
+import PhotographyDetail from "./pages/PhotographyDetail";
 import Blogg from "./pages/Blogg";
 import Contact from "./pages/Contact";
 
@@ -33,7 +34,7 @@ function App() {
 
         {/* Photography */}
         <Route path="/photography" element={<Photography />} />
-
+        <Route path="/photography/:id" element={<PhotographyDetail />} />
         {/* Blog */}
         <Route path="/blogg" element={<Blogg />} />
 

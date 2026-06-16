@@ -3,21 +3,21 @@
     "id": 1,
     "title": "How I Built My Portfolio",
     "description": "A behind‑the‑scenes look at how I designed and developed my portfolio using React and Vite.",
-    "image": "/images/blogg/blog1.jpg",
+    "image": "/Portfolio/images/blogg/blog1.jpg",
     "date": "2026-06-01"
   },
   {
     "id": 2,
     "title": "My Photography Workflow",
     "description": "From shooting to editing — how I create my photography projects.",
-    "image": "/images/blogg/blog2.jpg",
+    "image": "/Portfolio/images/blogg/blog2.jpg",
     "date": "2026-05-20"
   },
   {
     "id": 3,
     "title": "Learning C# and .NET",
     "description": "My journey learning backend development and building practical mini‑projects.",
-    "image": "/images/blogg/blog3.jpg",
+    "image": "/Portfolio/images/blogg/blog3.jpg",
     "date": "2026-05-10"
   }
 ]

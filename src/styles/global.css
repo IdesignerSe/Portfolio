@@ -294,11 +294,6 @@ body {
 .project-btn:hover {
   background: var(--orange-light);
 }
-.project-img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-}
 
 .about-page {
   padding: 120px 20px 60px;

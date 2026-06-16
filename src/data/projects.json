@@ -2,19 +2,19 @@
     {
         "id": 1,
         "title": "Portfolio Website",
-        "description": "A modern portfolio built with React and Vite.",
-        "image": "/images/projects_img/project1.jpg"
+        "description": "A modern portfolio built with React and .",
+        "image": "/Portfolio/images/projects_img/project1.jpg"
     },
     {
         "id": 2,
         "title": "E‑commerce Demo",
         "description": "Fake shop with cart, filters, and product pages.",
-        "image": "/images/projects_img/project2.jpg"
+        "image": "/Portfolio/images/projects_img/project2.jpg"
     },
     {
         "id": 3,
         "title": "Photography Gallery",
         "description": "A responsive gallery layout with modal viewer.",
-        "image": "/images/projects_img/project3.jpg"
+        "image": "/Portfolio/images/projects_img/project3.jpg"
     }
 ]

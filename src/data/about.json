@@ -1,0 +1,14 @@
+{
+  "name": "Heb",
+  "title": "Software Development Student",
+  "description": "I am a passionate developer focused on building clean, modern, and user‑friendly applications. I enjoy working with C#, .NET, React, and building practical mini‑projects that help me grow as a developer.",
+  "skills": [
+    "C# / .NET",
+    "React",
+    "JavaScript",
+    "Git & GitHub",
+    "Responsive Design",
+    "UI/UX Basics"
+  ],
+  "profileImage": "/images/about_img/profile.jpg"
+}

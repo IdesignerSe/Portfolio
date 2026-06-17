@@ -35,7 +35,24 @@ body {
   --shadow-strong: rgba(0, 0, 0, 0.45);
 }
 
-/* RESET */
+.btn-orange-outline {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #ff7a00;
+  color: #ff7a00;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-orange-outline:hover {
+  background: #ff7a00;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;

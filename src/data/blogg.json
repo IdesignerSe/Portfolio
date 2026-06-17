@@ -4,20 +4,20 @@
     "title": "Why I Built My Portfolio With React",
         "description": "A breakdown of the tools, structure, and design choices behind my portfolio.",
         "content": "In this article, I explain the full process behind building my portfolio using React and Vite. I cover component structure, routing, JSON‑driven content, and how I optimized the site for performance and maintainability. I also talk about the design decisions, including the orange brand color, floating menu, and responsive layout. This blog post is meant to help beginners understand how to structure a modern portfolio project.",
-        "image": "./images/blogg/blog1.jpg"
+        "image": "/images/blogg/blog1.jpg"
   },
   {
     "id": 2,
     "title": "Photography Workflow: From RAW to Final Image",
     "description": "My full editing workflow using Lightroom and Photoshop.",
     "content": "This blog post walks through my complete photography workflow, starting from RAW files and ending with the final exported image. I explain how I handle exposure, color grading, lens corrections, and detail enhancement. I also share tips for keeping a consistent style across a full photo series. This workflow is designed to be simple, efficient, and beginner‑friendly.",
-    "image": "./images/blogg/blog2.jpg"
+    "image": "/images/blogg/blog2.jpg"
   },
   {
     "id": 3,
     "title": "Design Principles Every Developer Should Know",
     "description": "A simple guide to layout, spacing, color, and typography.",
     "content": "In this article, I break down the essential design principles that help developers create cleaner and more professional interfaces. Topics include spacing, alignment, color contrast, typography hierarchy, and visual balance. These principles are easy to apply and make a huge difference in UI quality. This post is perfect for developers who want to improve their design skills.",
-    "image": "./images/blogg/blog3.jpg"
+    "image": "/images/blogg/blog3.jpg"
   }
 ]

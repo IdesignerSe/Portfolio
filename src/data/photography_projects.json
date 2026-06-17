@@ -4,7 +4,7 @@
     "title": "Urban Street Photography",
     "description": "Candid moments captured in Malmö and Copenhagen.",
     "content": "This project focuses on the raw, unfiltered energy of urban life. Shot across Malmö and Copenhagen, the series captures spontaneous human expressions, architectural contrasts, and the rhythm of everyday movement. The goal was to document authenticity — people unaware of the camera, natural light, and real stories unfolding in the streets. The project explores composition, timing, and the emotional impact of street environments.",
-    "image": "./images/photography/photoproject/project1.jpg",
+    "image": "/images/photography/photoproject/project1.jpg",
     "link": "https://instagram.com/"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Nature & Landscapes",
     "description": "Scenic landscapes and natural textures from Sweden.",
     "content": "This collection highlights the calm and beauty of Scandinavian nature. From forests and lakes to foggy mornings and golden-hour fields, the project focuses on color harmony, depth, and atmosphere. Each photo aims to evoke a sense of peace and connection to the environment. The series experiments with wide‑angle compositions, natural framing, and long‑exposure techniques.",
-    "image": "./images/photography/photoproject/project2.jpg",
+    "image": "/images/photography/photoproject/project2.jpg",
     "link": "https://instagram.com/"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Portrait Sessions",
     "description": "Creative portrait photography with natural and studio light.",
     "content": "This portrait series blends natural light with controlled studio setups to create expressive and intimate images. The project explores personality, mood, and storytelling through facial expression, color, and composition. Techniques include softbox lighting, backlighting, and shallow depth of field to highlight emotion and detail. Each session was designed to bring out the subject’s unique character.",
-    "image": "./images/photography/photoproject/project3.jpg",
+    "image": "/images/photography/photoproject/project3.jpg",
     "link": "https://instagram.com/"
   }
 ]

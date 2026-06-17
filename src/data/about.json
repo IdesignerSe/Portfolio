@@ -10,5 +10,5 @@
     "Responsive Design",
     "UI/UX Basics"
   ],
-  "profileImage": "./images/about/profile1.jpg"
+  "profileImage": "/images/about/profile1.jpg"
 }

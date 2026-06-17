@@ -4,7 +4,7 @@
     "title": "Portfolio Website",
     "description": "A modern portfolio built with React, Vite, and custom CSS.",
     "content": "This portfolio website showcases my work as a developer and designer. It includes a clean homepage, an about section, a photography gallery, a blog page, and a fully responsive layout. The site is built using React with Vite for fast development, React Router for navigation, and a modular component structure. It demonstrates my ability to structure pages, manage JSON‑driven content, and deploy to GitHub Pages with a custom base path.",
-    "image": "/images/projects-img/project1.jpg",
+    "image": "./images/projects-img/project1.jpg",
     "link": "https://idesignerse.github.io/GreenCycle/"
   },
   {
@@ -12,7 +12,7 @@
     "title": "E‑commerce Demo",
     "description": "A fake shop with product listing, cart system, and filters.",
     "content": "This e‑commerce demo simulates a small online shop with dynamic product loading, category filters, and a working shopping cart. It uses React state management to handle cart updates, JSON files for product data, and responsive grid layouts for product cards. The project demonstrates my understanding of UI structure, reusable components, and interactive features such as add‑to‑cart, quantity updates, and price calculations.",
-    "image": "/images/projects-img/project2.jpg",
+    "image": "./images/projects-img/project2.jpg",
     "link": "https://idesignerse.github.io/Munamii-Cakery-React-vite//"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Photography Gallery",
     "description": "A responsive gallery layout with modal viewer.",
     "content": "This photography gallery project displays a collection of images in a responsive grid layout. Clicking an image opens a modal viewer with navigation controls. The project focuses on clean UI, smooth transitions, and optimized image rendering. It uses JSON to manage image data, making it easy to expand the gallery. This project highlights my ability to build visually appealing layouts and interactive UI components.",
-    "image": "/images/projects-img/project3.jpg",
+    "image": "./images/projects-img/project3.jpg",
     "link": "https://idesignerse.github.io/CV//"
   }
 ]

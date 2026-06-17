@@ -1,8 +1,8 @@
 [
-  { "id": 1, "image": "/images/photography/carousel/photo1.jpg" },
-  { "id": 2, "image": "/images/photography/carousel/photo2.jpg" },
-  { "id": 3, "image": "/images/photography/carousel/photo3.jpg" },
-  { "id": 4, "image": "/images/photography/carousel/photo4.jpg" },
-  { "id": 5, "image": "/images/photography/carousel/photo5.jpg" },
-  { "id": 6, "image": "/images/photography/carousel/photo6.jpg" }
+  { "id": 1, "image": "./images/photography/carousel/photo1.jpg" },
+  { "id": 2, "image": "./images/photography/carousel/photo2.jpg" },
+  { "id": 3, "image": "./images/photography/carousel/photo3.jpg" },
+  { "id": 4, "image": "./images/photography/carousel/photo4.jpg" },
+  { "id": 5, "image": "./images/photography/carousel/photo5.jpg" },
+  { "id": 6, "image": "./images/photography/carousel/photo6.jpg" }
 ]
